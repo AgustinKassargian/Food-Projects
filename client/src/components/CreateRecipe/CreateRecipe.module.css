@@ -1,0 +1,139 @@
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Multimedia/Book.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.book{
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+}
+
+.leftSheet{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 2%;
+    width: 49%;
+    height: 70vh;
+
+}
+.rightSheet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 51%;
+    height: 70vh;
+}
+
+.summaryBox{
+    display: flex;
+    justify-content: center;
+    width: 74%;
+    height: 20vh;
+}
+.dietsBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: space-between;
+    width: 74%;
+    height: 20vh;        
+}
+
+.previewImageBox{
+    margin-top: 2vh;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    border: 3px solid #763F03;
+    border-radius: 2px;
+}
+.previewImage{
+    width: 100%;
+    height: auto;
+}
+
+.buttonBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    height: 4vh;
+}
+.button{
+    background-color: #FFE786;
+    color: #763F03;
+    border: 3px solid;
+    border-color: #763F03;
+    font-weight:bolder;
+    border-radius: 2%;
+    transition: background-color .3s;
+    transition: color .3s;
+    height: 100%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #763F03;
+    color: #FFE786;
+    border: 3px solid;
+    border-color: #FFE786;
+    font-weight:bolder;
+    border-radius: 2%; 
+}
+
+
+
+
+.inputs{
+    background-color: transparent;
+    border: none;   
+}
+
+
+
+
+
+
+
+
+
+.loadingBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Multimedia/Loading.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;    
+}
+
+.loadingBook{
+    display: flex;
+    justify-content: center;
+    height: 72vh;
+    width: 48%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+.leftLoading{
+    width: 50%;
+    }
+.rigthLoading{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}

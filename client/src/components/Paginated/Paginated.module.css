@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.actual{
+    padding: 2% ;
+    background-color: #763F03;
+    color: #FFE786;
+    font-weight: bolder;
+    font-size: large;
+    margin: 1%;
+    border: 1px solid #FFE786;
+    width: 40%;
+
+}
+
+.notSelected{
+        padding: 2% ;
+    background-color: #FFE786;
+    color: #763F03;
+    margin: 1%;
+    border: 1px solid #763F03;
+    width: 40%;
+}

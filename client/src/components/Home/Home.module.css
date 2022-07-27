@@ -1,0 +1,150 @@
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Multimedia/Loading.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.fondo{
+ display: flex;
+ background-image: url('../Multimedia/Book.jpeg');
+ background-position: center;
+ background-size: cover; 
+ width: 100%;
+ height: 100vh;
+ flex-direction: column;
+ align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.buttonTitle{
+    background-color: #FFE786;
+    color: #763F03;
+    border: 3px solid;
+    border-color: #763F03;
+    font-weight:bolder;
+    border-radius: 2%;
+
+}
+.navBar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+
+
+
+.cardbox{
+    min-width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    height: 70vh;
+}
+.card{
+    min-width: 20%;
+    height: 30vh;
+    width: 20%;
+    background-color: #FFE786;
+    color: #763F03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #763F03;
+    text-decoration: none;
+    border-radius: 2%;
+}
+
+.leftLoading{
+    width: 50%;
+}
+
+.rigthLoading{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.book{
+    display: flex;
+    justify-content: center;
+    height: 72vh;
+    width: 48%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+
+.notFoundBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Multimedia/Book.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.notFoundBook{
+    display: flex;
+    justify-content: center;
+    height: 72vh;
+    width: 48%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+
+}
+
+.notFoundLeftSheet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+}
+
+.notFoundRightSheet{
+    width: 50%;
+}
+.notFoundButton{
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10vh;
+    background-color: #FFE786;
+    color: #763F03;
+    border: #FFE786;
+    border: 2px solid #763F03;
+    border-radius: 2%;
+    width: 20%;
+}
+
+.pages{
+    margin-top: 1%;
+    background-color: #FFE786;
+    color: #763F03;
+    border: #FFE786;
+    border: 2px solid #763F03;
+    width: 5%;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0.2%;
+    margin-bottom: 0.5%;
+    border-radius: 2%;
+}

@@ -1,0 +1,111 @@
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Multimedia/Book.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.leftSheet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+    width: 27.5%;
+    height: 70vh;
+
+}
+.rightSheet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 26%;
+    height: 70vh;
+   
+
+}
+.image{
+    border: 3px solid #763F03;
+    border-radius: 1%;
+    margin-top: 5vh;
+    margin-left: 7%;
+    width: 78%;
+    height: auto;
+    margin-right: 15%;
+}
+
+.stepsBox{
+    margin-top: -5%;
+    margin-left: -10%;
+    width: 90%;
+    height: auto;
+}
+
+
+
+.diets{
+    margin-top:  1px;
+    margin-left: 12%;
+}
+
+.probar{
+    margin-left: 12%;
+    margin-bottom: 0.5px;
+}
+
+.summaryHeader{
+    margin-left: 12%;
+}
+
+.summary{
+    margin-left: 10%;
+    width: 80%;
+    font-size: 11.25px;
+}
+
+
+.toHome{
+    margin-top: 9%;
+    margin-left: 25%;
+    background-color: #FFE786;
+    color: #763F03;
+    border: #FFE786;
+    border: 2px solid #763F03;
+    width: 80%;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0.2%;
+    margin-bottom: 0.5%;
+    border-radius: 2%;
+}
+
+.loadingBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Multimedia/Loading.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;    
+}
+
+.loadingBook{
+    display: flex;
+    justify-content: center;
+    height: 72vh;
+    width: 48%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+.leftLoading{
+    width: 50%;
+    }
+.rigthLoading{
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
